@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(Imagens/fundo2.jpg) no-repeat center top;
+    background-size: 100% 400px;
+}
+body header{
+    display: flex;
+    flex-direction: row;
+    background-color: #004298;
+    padding-left: 4rem;
+    font-size: 16px;
+}
+header #logo img{
+    width: 180px;
+    height: 90px;
+}
+header hr{
+    border: 1px solid #000; 
+    height: 55px;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+    margin-right:50rem;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li a{
+    text-decoration:none ;
+    color: white;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+header ul li a:hover{
+    color:#00003d;
+    margin-right: 4rem;
+    cursor: pointer;
+    border:1px solid #6282cc;
+    border-radius: 4px;
+    background-color: #6282cc;
+    font-weight: 900;
+
+}
+/* Aqui termina o menu */
+section{
+background-color: white;
+width: 80%;
+height: 400px;
+margin-left: 120px;
+margin-top: 130px;
+border:1px solid #000;
+border-radius: 10px;
+box-sizing: border-box;
+padding-top: 60px;
+padding-left: 60px;
+justify-content: center;
+
+}
+
+section #calculo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-top: 70px;
+}
+section #resposta{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+section img{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid #000;
+    margin-top: 35px;
+}
+section select {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+}
+section input[type="text"] {
+    width: 200px;
+    height: 18px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+}
+
+section #resposta span{
+margin-top: 10px;
+}
+
+section #calculo div{
+ margin-left: 40px;
+}
+section #resposta div{
+    margin-left: 40px;
+
+}
+
+section #titulo{
+text-align: center;
+
+}
+/* Aqui termina o cambio */
+#inf{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-items: center;
+    margin-left: 2rem;
+
+}
+nav div{
+    background-color: #E5EAF6;
+    width: 20%;
+    height: 400px;      
+    border:1px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+    padding: 2rem;  
+    
+}
+#metical,#dolar{
+    margin-left: 14rem ;
+}
+/* Aqui termina o informacao */
+aside{
+    display: flex;
+    flex-direction: row;
+    background-color: #00003D;
+    margin-top: 4rem;
+    font-size: 16px;
+    width: 100%;
+    height: 15rem;
+    color: #fff;
+}
+aside hr{
+    border: 1px solid #fff; 
+    height: 200px;
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+aside #logo{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+aside #logo img{
+    width: 220px;
+    height: 110px;
+}
+aside span{
+    margin-top: 7rem;
+    margin-right: 20rem;
+}

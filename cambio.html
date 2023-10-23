@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cambioestilo.css">
+    <script src="casa.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="Imagens/icones/logotipo.png" alt="">
+        </div>
+        <hr>
+        <div class="container">
+            <ul>
+                <li><a href="#cambio">Câmbio</a></li>
+                <li><a href="#informacao">Informações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="cambio" class="cambio">
+        <div id="titulo">
+            <span  style="font-size: 16px; font-weight: 900;">Serviços de Câmbio</span>
+            <p></p>
+            <span  style="font-size: 14px;">Troque sua moeda conosco de forma rápida e segura.</span>
+            <p></p>
+        </div>
+        <div class="conteudo">
+            <div id="calculo">
+                <div id="valo">
+                    <span>Valor</span>
+                    <p></p>
+                    <input type="text" id="valor" >
+                </div>
+                <div id="moeda1">
+                    <span>De</span>
+                    <p></p>
+                    <select id="moedaDe">
+                        <option value="USD" id="dolarr">Dólar Americano (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="GBP">Libra Esterlina (GBP)</option>
+                        <option value="JPY">Iene Japonês (JPY)</option>
+                        <option value="AUD">Dólar Australiano (AUD)</option>
+                        <option value="MZN" id="metical">Metical (MZN)</option>
+                    </select>
+                </div>
+                <div id="conversao">
+                    <img src="Imagens/icones/conversao.png" alt="">
+                </div >
+                <div id="moeda2">
+                    <span>Para</span>
+                    <p></p>
+                    <select id="moedaPara">
+                        <option value="USD">Dólar Americano (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="GBP">Libra Esterlina (GBP)</option>
+                        <option value="JPY">Iene Japonês (JPY)</option>
+                        <option value="AUD">Dólar Australiano (AUD)</option>
+                        <option value="MZN">Metical (MZN)</option>
+                    </select>
+                </div>
+            </div>
+            <div id="resposta">
+                <div id="resultad">
+                    <span>Resultado</span>
+                    <p></p>
+                    <input type="text" id="resultado" readonly>
+                </div>
+                <div id="cam">
+                    <span>Câmbio</span>
+                    <p></p>
+                    <input type="text" id="cambio" readonly>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="inf">
+        <span style="font-size: 16px;font-weight: 900;">Informações</span>
+        <hr>
+    </div>
+    <nav id="informacao" class="informacao">
+        <div id="taxas">
+            <span id="titulo1" style="font-size: 14px;font-weight: 900;">Taxas de Câmbio Atuais</span><p></p>
+            <span>Dólar Americano (USD): 1 USD = 70 MZN
+                Euro (EUR): 1 EUR = 80 MZN
+                Libra Esterlina (GBP): 1 GBP = 90 MZN
+                Iene Japonês (JPY) : 1 JPY = 0.65 MZN
+                Dólar Australiano (AUD): 1 AUD = 50 MZN</span><p></p>
+            <a href="https://www.bancomoc.mz/pt/areas-de-actuacao/mercados/mercado-cambial/">ler mais</a>
+        </div>
+        
+        <div id="dolar">
+            <span id="titulo1"  style="font-size: 14px;font-weight: 900;">USD - Dólar dos EUA</span><p></p>
+            <span>Nosso ranking de moedas mostra 
+                que a taxa de câmbio mais procurada
+                 para Dólar dos EUA é de USD para USD.
+                 O código de moeda para Dólares dos EUA é USD.
+                O símbolo da moeda é $.</span><p></p>
+            <a href="https://www.bancomoc.mz/pt/areas-de-actuacao/mercados/mercado-cambial/">ler mais</a>
+        </div>
+        <div id="metical">
+            <span id="titulo1"  style="font-size: 14px;font-weight: 900;">MZN - Metical</span><p></p>
+            <span>Hoje, os mercados globais celebraram 
+                um crescimento econômico surpreendente,
+                 impulsionado pela recuperação pós-pandemia.
+                  Setores-chave, como tecnologia e energia...</span><p></p>
+            <a href="https://www.bancomoc.mz/pt/areas-de-actuacao/mercados/mercado-cambial/">ler mais</a>
+        </div>
+    </nav>
+    <aside  id="contato" class="contato">
+        <div id="logo">
+            <img src="Imagens/icones/logotipo.png" alt="">
+        </div>
+        <hr>
+        <span style="font-size: 16px;font-weight: 900;">
+            Cell: +258 87 073 3791 <p></p>
+            Email: james.sangue@gmail.com
+        </span>
+
+    </aside>
+</body>
+</html>
