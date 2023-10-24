@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: url(Imagens/fundo2.jpg) no-repeat center top;
+    background: url(fundo2.jpg) no-repeat center top;
     background-size: 100% 400px;
 }
 body header{
